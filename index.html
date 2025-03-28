@@ -1,1 +1,33 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+<title>My Chatbot Project</title>
+
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<h1>Welcome to My Chatbot Project</h1>
+
+<p>This page is hosted on GitHub Pages with a chatbot integrated.</p>
+
+<script type="module">
+
+import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+createChat({
+
+webhookUrl: ‘https://williamlynam.app.n8n.cloud/webhook/e6257a4a-67d1-428d-a785-3e1c8d91b1e6/chat‘
+
+});
+
+</script>
+
+</body>
+
+</html>
